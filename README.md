@@ -12,4 +12,6 @@ https://heroes-of-tour.herokuapp.com/dashboard
 
 By Eldson Caldas 🖥️💻
 
+<img src="https://vidafullstack.com.br/wp-content/uploads/2021/07/versao-12-angular.png">
+
 
