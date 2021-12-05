@@ -1,0 +1,12 @@
+<div class="heroes-menu">
+    <h1>Top Heroes</h1>
+    <div class="line-style"></div>
+    <div class="containner-top-heroes">
+        <a *ngFor="let hero of heroes"
+            routerLink="/detail/{{hero.id}}" class="style-heroes">
+            <img src="../../assets/img/hero-{{hero.id}}.png" alt="img-hero" class="hero-image">
+            <!-- <span id="name-image-hero">{{hero.name}}</span> -->
+        </a>
+    </div>
+    
+</div>

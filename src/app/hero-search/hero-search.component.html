@@ -1,0 +1,15 @@
+<div class="containner-search">
+  <div id="search-component" class="search-area">
+      <img src="../../assets/img/search-btn.png" alt="search" id="search-png">
+      <input #searchBox id="search-box" (input)="search(searchBox.value)" placeholder="Search a Hero..."/>
+  </div>
+</div>
+<div class="result-search">
+  <ul class="search-result">
+    <li *ngFor="let hero of heroes">
+      <a routerLink="/detail/{{hero.id}}">
+        {{hero.name}}
+      </a>
+    </li>
+  </ul>
+</div>
